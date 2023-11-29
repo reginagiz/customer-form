@@ -1,9 +1,14 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <CustomerForm />
+  </div>
 </template>
 
 <script>
+import CustomerForm from './components/CustomerForm.vue';
+
 export default {
-  name: "App",
+    name: "App",
+    components: { CustomerForm }
 };
 </script>
